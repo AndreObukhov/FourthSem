@@ -47,6 +47,10 @@ float Vector3::Length() const {
     return (sqrt(x*x + y*y + z*z));
 }
 
+float Vector3::SquareLength() const {
+    return (x*x + y*y + z*z);
+}
+
 float Vector3::operator *(const Vector3& other) const {   //скалярное
     return (x*other.x + y*other.y + z*other.z);
 }
@@ -56,7 +60,7 @@ Vector3 Vector3::operator *(const float& num) {     //вектор * число
     return res;
 }
 
-Vector3 Vector3::operator ^(const Vector3& vect) {
+Vector3 Vector3::operator ^(const Vector3& vect) {      //векторное произведение
     Vector3 res;
     res.x = (y * vect.z) - (z * vect.y);
     res.y = - (x * vect.z) + (z * vect.x);

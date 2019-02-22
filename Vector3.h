@@ -12,6 +12,7 @@ struct Vector3 {
     Vector3(float x1, float y1, float z1);    //конструктор "тремя числами"
     Vector3(const Vector3& other);            //конструктор через другой вектор
     float Length() const;                     //длина вектора
+    float SquareLength() const;               //квадрат длины
     float operator * (const Vector3& other) const;    //скалярное произведение векторов
     Vector3 operator *(const float&);                 //умножение вектора на число (справа)
     Vector3 operator ^(const Vector3& vect);          //векторное произведение векторов
