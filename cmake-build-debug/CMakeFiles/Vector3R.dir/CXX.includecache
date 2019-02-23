@@ -9,12 +9,12 @@
 C:/Users/User/CLionProjects/4Sem/Seminar2/Vector3R/Vector3.cpp
 Vector3.h
 C:/Users/User/CLionProjects/4Sem/Seminar2/Vector3R/Vector3.h
-cmath
--
-iostream
--
 
 C:/Users/User/CLionProjects/4Sem/Seminar2/Vector3R/Vector3.h
+iostream
+-
+cmath
+-
 
 C:/Users/User/CLionProjects/4Sem/Seminar2/Vector3R/main.cpp
 iostream
